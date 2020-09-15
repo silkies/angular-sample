@@ -1,27 +1,10 @@
 # AngularSample
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+This is a microfrontend angular-sample application.  
+This project uses [sigle-spa](https://single-spa.js.org/) and was created with the [Angular CLI](https://github.com/angular/angular-cli)
 
-## Development server
+## Running project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` to run the project locally. You can verify if you are able to load the file at http://localhost:4200/main.js
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This app is accessible from [root-config](https://github.com/silkies/root-config) at http://localhost:9000/angular 
